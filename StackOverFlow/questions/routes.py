@@ -38,6 +38,7 @@ def single_question(questionId):
 
 #retrieving single questions item for a user
 @questions.route("/<string:questionId>", methods=['GET'])
+@jwt_required()
 def single_user_question(questionId):
     current_user = get_jwt_identity()
     single_question = Question.query.filter_by(user_id=current_user,id=questionId).first()
