@@ -1,5 +1,6 @@
 # Stack-Overflow-Lite-Rest-API-Flask
  StackOverFlow lite project is a python project in flask where users can signup, login, post questions, view their questions , delete the questions and post an answer to the question
+ worked on the development branch
 
 1.Clone
 git clone https://github.com/gorretgolden/StackOverliteExam
@@ -18,12 +19,12 @@ set up the environemt varriables
 And Start up the Flask server
 
 
-       flask run
+       flask run http://127.0.0.1:5000/
 
 
-8. goto 
 
-http://127.0.0.1:5000/
+
+
 
 
 
